@@ -1,0 +1,87 @@
+.mainBod{
+   height:100vh;
+   background-color: hsl(47, 88%, 63%);
+//    color: red;
+
+// for position 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family:"Figtree", sans-serif;
+
+
+  .mainHov{
+    box-shadow: 16px 16px 0px rgba(0, 0, 0, 1) !important;
+  }
+
+  .mainDiv{
+    width: 22%;
+    height: 66%;
+    padding: 0.7%;
+    border: 1px solid hsl(0, 0%, 7%);
+    border-radius: 13px;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 10px 10px 0px rgba(0, 0, 0, 1);
+
+    .mainImg{
+        width:100%;
+        height:auto;
+        border-radius:8px;
+    }
+
+    .learningDiv{
+        background: hsl(47, 88%, 63%);
+        width: 84px;
+        height: 27px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 12px 0;
+        font-weight: 800;
+        border-radius: 5px;
+    }
+
+    .specialPU{
+        color: hsl(0, 0%, 7%);
+        font-weight: 800;
+        font-size: 22px;
+        margin: 14px 0;
+    }
+
+    .specialPH{
+        color: hsl(47, 88%, 63%);
+        font-weight: 800;
+        font-size: 22px;
+        margin: 14px 0;
+        cursor: pointer;
+    }
+    
+
+    .greyP{
+        color: hsl(0, 0%, 50%);
+        margin-bottom:5px;
+    }
+
+    .imgParaDiv{
+        display:flex;
+        justify-content: start;
+        align-items: center;
+        column-gap:8px;
+        height: 11%;
+        column-gap: 10px;
+
+        .avatar{
+            width:25px;
+            height:auto;
+        }
+
+        p{
+            font-size: 14px;
+            font-weight: 600;
+           
+        }
+    }
+   
+  }
+
+}
